@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+ul{
+    
+    width: 100%;
+    list-style: none;
+    
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+ul li .drop-down-program{
+    max-width: 400px;
+    position: absolute;
+    display: none;
+}
+ul li .drop-down-lab{
+    max-width: 250px;
+    display: none;
+    position: absolute;
+}
+ul li:hover .drop-down-program{
+    margin-left: -50px;
+    display: block;   
+}
+
+ul li:hover .drop-down-lab{
+    margin-left: -50px;
+    display: block;
+}
+marquee{
+    width: 100%;
+    height: 40px;
+    margin-top: 60px;
+    background-color: blue;
+}
+marquee h3{
+    padding-left:10px ;
+    color: white;
+}
+.box{
+
+    height: 40px;
+    background-color: blue;
+}
+.box h2{
+    display: flex;
+    padding-top: 6px;
+    color: white;
+}
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav class="bar">
+            <ul>
+                <li><a href="ass4.html">Home</a></li>
+                <li><a href="new.html">News</a></li>
+                <li><a href="https://www.cost.uc.edu.kh/">Faculty Members</a></li>
+                <li><a href="#">Programs</a>
+                    <div class="drop-down-program">
+                        <ul>
+                            <li><a href="informationtechnology.html">Information Technology</a></li>
+                            <li><a href="computerScience.html">Computer Science</a></li>
+                            <li><a href="elec.html">Electronics and Telecommunications</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Computer Labs</a>
+                    <div class="drop-down-lab">
+                        <ul>
+                            <li><a href="lab1.html">Multimedia Lab</a></li>
+                            <li><a href="lab2.html">E-learning lab</a></li>
+                            <li><a href="lab4.html">Networking lab</a></li>
+                            <li><a href="lab3.html">IT Center Lab</a></li>
+                        </ul>
+                    </div>   
+                </li>
+            </ul>
+
+        </nav>
+     </div>
+     <marquee behavior="" direction="up" scrollamount="1">
+        <h3>Assignment 4 ស្វាគមន៍! CS Computer Scinece</h3>
+     </marquee>
+     <div class="text">
+        <p>ស្វាគមន៍មកកាន់មហាវិទ្យាល័យវិទ្យាសាស្ត្រ និងបច្ចេកវិទ្យានៃសាកលវិទ្យាល័យកម្ពុជា។ សម្រាប់ប្អូនៗសិស្សានុសិស្ស ដែលមានបំណងចង់បន្តការសិក្សាថ្នាក់បរិញ្ញាបត្ររង និងថ្នាក់បរិញ្ញាបត្រ។ សូមចុះឈ្មោះជាមួយយើងឥឡូវនេះ ឬអាចអញ្ជើញមកកាន់សាកលវិទ្យាល័យផ្ទាល់ក៏បាន។</p><br>
+        <p> Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia</p>
+     </div>
+     <div class="box">
+        <h2>Majors Offering in Collage of Science</h2>
+     </div>
+     <img src="dicount.jpg" alt="">
+</body>
+</html>

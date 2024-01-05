@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Lab 1</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+ul{
+    background-color: blue;
+    width: 100%;
+    list-style: none;
+    
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+ul li .drop-down-program{
+    max-width: 400px;
+    position: absolute;
+    display: none;
+}
+ul li .drop-down-lab{
+    max-width: 250px;
+    display: none;
+    position: absolute;
+}
+ul li:hover .drop-down-program{
+    margin-left: -50px;
+    display: block;   
+}
+
+ul li:hover .drop-down-lab{
+    margin-left: -50px;
+    display: block;
+}
+p{
+    margin-top: 65px;
+    font-weight: bold;
+}
+.collage{
+    margin-top: 10px;
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h2{
+    padding-left: 10px;
+}
+img{
+    width: 400px;
+    margin-top: 10px;
+}
+#p{
+    font-weight: normal;
+    position: absolute;
+    margin-top: 10px;
+    left: 100px;
+}
+table{
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+    background-color:rgba(37, 59, 60, 0.686);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="bar">
+            <ul>
+                <li><a href="ass4.html">Home</a></li>
+                <li><a href="new.html">News</a></li>
+                <li><a href="https://www.cost.uc.edu.kh/">Faculty Members</a></li>
+                <li><a href="#">Programs</a>
+                    <div class="drop-down-program">
+                        <ul>
+                            <li><a href="informationtechnology.html">Information Technology</a></li>
+                            <li><a href="computerScience.html">Computer Science</a></li>
+                            <li><a href="elec.html">Electronics and Telecommunications</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Computer Labs</a>
+                    <div class="drop-down-lab">
+                        <ul>
+                            <li><a href="lab1.html">Multimedia Lab</a></li>
+                            <li><a href="lab2.html">E-learning lab</a></li>
+                            <li><a href="lab4.html">Networking lab</a></li>
+                            <li><a href="lab3.html">IT Center Lab</a></li>
+                        </ul>
+                    </div>   
+                </li>
+            </ul>
+
+        </nav>
+     </div>
+     <p>Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia</p>
+     <div class="collage">
+        <h2>Collage of Science and Technology Networking Lab</h2>
+     </div>
+     <img src="lab3.jpg" alt="">
+     <p id="p">
+        Computer Labs University of Cambodia
+     </p>
+     <table border="1px">
+        <tr>
+            <th>Multimedia Lab</th>
+            <th>E-learning Lab</th>
+            <th>Networking Lab</th>
+            <th>IT-Center Lab</th>
+        </tr>
+        <tr>
+            <td>Graphic Design</td>
+            <td>Graphic Design</td>
+            <td>Networking Design</td>
+            <td>Computer Applications</td>
+        </tr>
+        <tr>
+            <td>Computer Applications</td>
+            <td>Produce Videos Contents</td>
+        </tr>
+        <tr>
+            <td>Mobile Applications</td>
+        </tr>
+     </table>
+</body>
+</html>
